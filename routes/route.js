@@ -25,6 +25,7 @@ router.get('/get', async(req,res)=>{
            let {category,auther} = filterQuery
            
            let data = await blogModel.find(filterQuery).sort({auther:1})
+           //console.log(data)
            if(!data){
             return res.status(404).send({msg:"No data found as per the query filter"})
            }
