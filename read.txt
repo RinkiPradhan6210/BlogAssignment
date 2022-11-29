@@ -1,0 +1,7 @@
+TASK:⁣
+- Create a blog API with following functions
+- create a blog by giving title, desc, category, img, auther
+- Filter blogs by category & auther, date
+- Search & sort blogs
+- CRUD comment
+-Upload To Github and share the link
